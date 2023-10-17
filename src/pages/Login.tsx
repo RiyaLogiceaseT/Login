@@ -39,13 +39,13 @@ const Login: React.FC = () => {
         alert("Login Failed");
       
     } catch (error) {
-
       alert("An error occurred during login");
     }
   };
 
   // If loginSuccess is true, render the Dashboard component directly
   if (loginSuccess) {
+    
     return <Dashboard />;
   }
 
